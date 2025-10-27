@@ -16,8 +16,14 @@ This repository provides a simple Docker Compose setup to deploy GeoNetwork with
 ## Usage
 
 1. Clone this repository.
-2. Run `docker compose up` to start all services.
-3. Access GeoNetwork at [http://localhost:8080/geonetwork](http://localhost:8080/geonetwork).
+2. Copy the `.env.example` file to `.env` and adjust settings as needed.
+
+  ```sh
+  cp .env.example .env
+  ```
+
+3. Run `docker compose up` to start all services.
+4. Access GeoNetwork at [http://localhost:8080/geonetwork](http://localhost:8080/geonetwork).
 
 Default credentials:
 - Username: `admin`
